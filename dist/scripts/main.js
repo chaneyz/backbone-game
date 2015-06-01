@@ -1,4 +1,15 @@
 $(document).ready(function () {
+	
+	$(window).load(function() {
+	        $('main').hide();
+	        $('nav').hide();
+	        $('#loading').delay(4000).fadeOut('fast');
+	        $('main').delay(4500).fadeIn('fast');
+	        $('nav').delay(4500).fadeIn('fast');
+	    });
+
+
+
 	var routerConfig = {
 		routes: {
 			'': 'test',
