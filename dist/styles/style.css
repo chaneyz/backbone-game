@@ -7,14 +7,6 @@ div h2 {
 	color: #fff;
 }
 
-/*.btn {
-	width: 10em;
-	height: 4em;
-	background-color: #000;
-	color: #33ff00;
-	font-size: 
-}*/
-
 .loadingContainer {
 	margin: 25% 0 0 0;
     padding: 0;
@@ -30,33 +22,20 @@ div h2 {
 }
 
 .btnContainer {
-	margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-
-.btnInner {
-    height: 4em;
-    width: 40em;
-    left: 43%;
+    top: 0;
+    left: 40%;
     background: #ccc;
     border: 1px solid rgba(0, 0, 0, 0.33);
     color: #FFFFFF;
-    display: table-cell inline;
+    display: block;
+    font-size: 0.8em;
     padding: 0.5% 2%;
     text-align: center;
     text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49);
     position: absolute;
-    vertical-align: middle;
-}
 
-/*.gameTime {
-	margin-top: 25%;
-	margin-left: 40%;
-	position: absolute;
-}*/
+}
 
 
 
