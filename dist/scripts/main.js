@@ -9,15 +9,18 @@ $(document).ready(function () {
 	    });
 
 	$('#playBtn').click(function () {
-				window.location.href = "#play";
+		window.location.href = "#play";
+		$('.loadingContainer').css("height", "0").css("width", "0");
 		});
 
 	$('#leaderBtn').click(function () {
-				window.location.href = "#leader";
+		window.location.href = "#leader";
+		$('.loadingContainer').css("height", "0").css("width", "0");
 		});
 
 	$('#settingsBtn').click(function () {
-				window.location.href = "#settings";
+		window.location.href = "#settings";
+		$('.loadingContainer').css("height", "0").css("width", "0");
 		});
 
 	var routerConfig = {

@@ -25,18 +25,45 @@ div h2 {
     top: 0;
     left: 40%;
     background: #ccc;
-    border: 1px solid rgba(0, 0, 0, 0.33);
-    color: #FFFFFF;
-    display: block;
-    font-size: 0.8em;
+    /*border: 1px solid rgba(0, 0, 0, 0.33);*/
+    /*color: #FFFFFF;*/
+    /*display: block;*/
+    /*font-size: 0.8em;*/
     padding: 0.5% 2%;
     text-align: center;
-    text-decoration: none;
+    /*text-decoration: none;*/
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49);
     position: absolute;
 
 }
 
+.btn {
+	background: #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.33);
+	color: #000;
+	display: inline;
+	font-size: 1em;
+	text-align: center;
+
+}
+
+.leaderContainer {
+	margin-left: 45%;
+    margin-bottom: 20%;
+    display: table;
+    clear: both;
+}
+
+.leaderInner {
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.leaderList {
+	color: #33ff00;
+	font-size: 2em;
+}
 
 
 /*the below code was sniped! Not mine, but i wanted to see how a game would loook*/
