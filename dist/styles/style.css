@@ -23,7 +23,7 @@ div h2 {
 
 .btnContainer {
     top: 0;
-    left: 40%;
+    left: 42%;
     background: #ccc;
     padding: 0.5% 2%;
     text-align: center;
@@ -62,7 +62,7 @@ div h2 {
 
 
 /*the below code was sniped! Not mine, but i wanted to see how a game would loook*/
-/*#container{
+#container{
   width: 404px;
   height: 500px;
   position: absolute;
@@ -98,13 +98,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 }
 #endCount, #endSeconds{
   font-weight: bold;
+  color: #fff;
 }
 #timer, #counter{
   padding: 5px;
   font-family: calibri;
+  color: #fff;
 }
 #timer span, #counter span{
    font-weight: bold;
+   color: #fff;
 }
 #timer{
   float: right;
@@ -151,4 +154,4 @@ background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9
 background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
 
-}*/
+}
