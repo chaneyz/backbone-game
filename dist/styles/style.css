@@ -1,21 +1,55 @@
-nav a {
+body {
+	background-color: #000;
+}
 
+div h2 {
+	margin: auto;
+	color: #fff;
+}
+
+/*.btn {
+	width: 10em;
+	height: 4em;
+	background-color: #000;
+	color: #33ff00;
+	font-size: 
+}*/
+
+.loadingContainer {
+	margin: 25% 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.intro {
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .btnContainer {
-    top: 0;
-    left: 40%;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.btnInner {
+    height: 4em;
+    width: 40em;
+    left: 43%;
     background: #ccc;
     border: 1px solid rgba(0, 0, 0, 0.33);
     color: #FFFFFF;
-    display: block;
-    font-size: 0.8em;
+    display: table-cell inline;
     padding: 0.5% 2%;
     text-align: center;
     text-decoration: none;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.49);
     position: absolute;
-
+    vertical-align: middle;
 }
 
 /*.gameTime {
@@ -27,7 +61,7 @@ nav a {
 
 
 /*the below code was sniped! Not mine, but i wanted to see how a game would loook*/
-#container{
+/*#container{
   width: 404px;
   height: 500px;
   position: absolute;
@@ -116,4 +150,4 @@ background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9
 background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 );
 
-}
+}*/

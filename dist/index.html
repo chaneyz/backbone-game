@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Video Gamessss</title>
+	<title>Video Game</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<div id="loading">Loading...</div>
+	<div class="loadingContainer">
+		<div id="loading" class="intro"><h2>Loading...</h2></div>
+	</div>
 	<nav>
 		<a href="#menu" id="a-link"></a>
 		<a href="#play" id="a-link"></a>
@@ -14,13 +16,12 @@
 	</nav>
 	<main>
 		<div class="page btnContainer" id="menu">
-			<button id="playBtn" class="btn">Play</button>
-			<button id="leaderBtn" class="btn">Leaderboard</button>
-			<button id="settingsBtn" class="btn">Settings</button>
+			<button id="playBtn" class="btn btnInner">Play</button>
+			<button id="leaderBtn" class="btn btnInner">Leaderboard</button>
+			<button id="settingsBtn" class="btn btnInner">Settings</button>
 		</div>
-		
 		<!-- game code......... took this from another site-->
-		<div class="page gameTime" id="play">
+		<!-- <div class="page gameTime" id="play">
 			<div id="container">
 				<div id="playground">
 					<div id="start">START</div>
@@ -35,9 +36,8 @@
 				<div id="counter">Count: <span></span> </div>
   				<div id="timer">Timer: <span>0</span>s </div>
 			</div>
-		</div>
+		</div> -->
 
-		
 		<div class="page" id="leader">
 			<h1>Stuff Stuff</h1>
 		</div>
