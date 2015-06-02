@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Video Gamessss</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
 	<div id="loading">Loading...</div>
 	<nav>
-		<a href="#home" id="a-link">home</a>
-		<a href="#about" id="a-link">about</a>
+		<a href="#menu" id="a-link"></a>
+		<a href="#play" id="a-link"></a>
+		<a href="#leader" id="a-link"></a>
+		<a href="#settings" id="a-link"></a>
 	</nav>
 	<main>
-		<div class="page" id="a">
-			<h1></h1>
+		<div class="page btnContainer" id="menu">
+			<button id="playBtn" class="btn">Play</button>
+			<button id="leaderBtn" class="btn">Leaderboard</button>
+			<button id="settingsBtn" class="btn">Settings</button>
 		</div>
-		<div class="page" id="b">
-			<h1></h1>
+		
+		<!-- game code......... took this from another site-->
+		<div class="page gameTime" id="play">
+			<div id="container">
+				<div id="playground">
+					<div id="start">START</div>
+      				<div id="startGame">START</div>
+      				<div id="win"></div>
+				</div>
+				<div id="endScreen">
+					We have a winner!<br />
+      				<p id="endCount">1</p> in
+      				<p id="endSeconds">1</p> Seconds <br />
+				</div>
+				<div id="counter">Count: <span></span> </div>
+  				<div id="timer">Timer: <span>0</span>s </div>
+			</div>
+		</div>
+
+		
+		<div class="page" id="leader">
+			<h1>Stuff Stuff</h1>
+		</div>
+		<div class="page" id="settings">
+			<h1>Stuff</h1>
 		</div>
 	</main>
 	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
@@ -23,3 +51,4 @@
 	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
+
